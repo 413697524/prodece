@@ -13,7 +13,9 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.MainActivity">
+
+        <activity
+            android:name=".ui.activity.main.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,13 +23,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.LoginActivity"
-            android:label="@string/title_activity_login" />
-        <activity
-            android:name=".ui.SettingsActivity"
-            android:label="@string/title_activity_settings"></activity>
-        <activity
-            android:name=".ui.activity.login.MyLoginActivity" />
+            android:name=".ui.activity.main.MainActivity"
+            android:label="@string/title_activity_home" />
     </application>
 
 </manifest>

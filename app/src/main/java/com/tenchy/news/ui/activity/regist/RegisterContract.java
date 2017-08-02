@@ -10,6 +10,7 @@ import com.tenchy.news.NewsResult;
 public interface RegisterContract{
     interface View extends BaseContract.BaseView{
 
+        void setContent(String contents);
     }
 
     interface Model extends BaseContract.BaseModel{

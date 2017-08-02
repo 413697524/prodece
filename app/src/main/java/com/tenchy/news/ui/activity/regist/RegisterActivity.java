@@ -50,4 +50,10 @@ public class RegisterActivity extends BusinessActivity implements RegisterContra
         Toast.makeText(this, "closeLoadingDialog", Toast.LENGTH_SHORT).show();
 
     }
+
+
+    @Override
+    public void setContent(String contents) {
+        content.setText(contents);
+    }
 }

@@ -1,4 +1,4 @@
-package com.tenchy.news.ui;
+package com.tenchy.news.ui.activity.main;
 
 
 import android.content.Intent;
@@ -9,7 +9,6 @@ import android.widget.TextView;
 
 import com.tenchy.news.base.BusinessActivity;
 import com.tenchy.news.R;
-import com.tenchy.news.ui.activity.login.MyLoginActivity;
 
 import butterknife.BindView;
 
@@ -36,8 +35,8 @@ public class MainActivity extends BusinessActivity {
         hello.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent inetent = new Intent(MainActivity.this,MyLoginActivity.class);
-                startActivity(inetent);
+//                Intent inetent = new Intent(MainActivity.this,HomeActivity.class);
+//                startActivity(inetent);
             }
         });
 

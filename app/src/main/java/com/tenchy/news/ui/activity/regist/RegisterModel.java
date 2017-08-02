@@ -1,6 +1,8 @@
 package com.tenchy.news.ui.activity.regist;
 
 
+import android.os.SystemClock;
+
 import com.tenchy.news.MyApp;
 import com.tenchy.news.NewsResult;
 
@@ -40,6 +42,13 @@ public class RegisterModel implements RegisterContract.Model {
 //
 //            }
 //        });
+
+//        new Thread(new Runnable() {
+//            @Override
+//            public void run() {
+//            }
+//        }).start();
+        SystemClock.sleep(4);
         NewsResult result = new NewsResult();
         result.setMessageNum("101");
         result.setMsg("殊不知破");
